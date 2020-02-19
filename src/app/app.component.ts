@@ -36,8 +36,7 @@ export class AppComponent implements OnInit {
 
     this._currencyService.getCurrenciesFromJson().subscribe( (currencies: ICurrency[]) => {
       if (!this._checkNullOrUndefinedService.isNullOrUndefined(currencies)) {
-        console.log(currencies);
-        this.currencyOptions = currencies;
+        this.currencyOptions = currencies['currencies'];
       }
     });
   }
