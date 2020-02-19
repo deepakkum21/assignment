@@ -11,7 +11,7 @@ import { CheckNullOrUndefinedService } from './shared/util/check-null-or-undefin
 import { HandleErrorService } from './services/handle-error/handle-error.service';
 import { CurrencyService } from './services/currency/currency.service';
 
-@NgModule({
+@ NgModule({
   declarations: [
     AppComponent
   ],
