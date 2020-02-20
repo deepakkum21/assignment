@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+=======
+.myDiv{
+    width:100%;
+    height:90%;
+    background:lightgrey;
+}
+
+.product-image-row {
+    width:100%;
+    height:350px;
+}
+
+.product-name-price-row {
+    width:100%;
+    height: 20px;
+    text-align: center;
+}
+>>>>>>> e3548c9219531061262983cd5a64e9a1b85fc784
