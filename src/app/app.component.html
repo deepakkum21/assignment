@@ -3,8 +3,8 @@
     <div class="col-lg-9">
       <div class="row">
         <div *ngFor="let product of products; trackBy: trackByProductId" class="col-4">
-          <div class="row product-image-row">
-            <div>
+          <div class="row">
+            <div class="product-image-row">
               <img [src]="product.imageUrl" class="img-fluid" alt="Responsive image" class="img-thumbnail">
             </div>
           </div>
