@@ -10,10 +10,14 @@ import { FormsModule } from '@angular/forms'
 import { CheckNullOrUndefinedService } from './shared/util/check-null-or-undefined/check-null-or-undefined.service';
 import { HandleErrorService } from './services/handle-error/handle-error.service';
 import { CurrencyService } from './services/currency/currency.service';
+import { ProductComponent } from './component/product/product.component';
+import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 
 @ NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
